@@ -37,112 +37,64 @@ export default function Home() {
 
 
 
-      {/* The Story - Fisherman Section */}
-      <section id="story" className="py-32 px-6 md:px-24">
-        <div className="grid md:grid-cols-2 gap-24 items-center">
-          <div className="relative h-[600px] rounded-2xl overflow-hidden group">
-            <Image
-              src="/assets/images/leader_three.png"
-              alt="Jalang'o with the people"
-              fill
-              className="object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-          </div>
-          <div>
-            <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">01. Humble Beginnings</span>
-            <h2 className="text-5xl md:text-6xl font-bold mb-8 serif">The Shores of <br /> Homa Bay</h2>
-            <div className="space-y-6 text-muted leading-relaxed text-lg">
-              <p>
-                Born in 1983, Felix Odiwour&apos;s early life was a constant struggle against poverty. As a young boy in Homa Bay, he walked the shores of Lake Victoria, not as a tourist, but as a fisherman, helping his parents provide for the family.
-              </p>
-              <p>
-                Despite the hardships, his brilliance shone through. He excelled in his primary education, earning a spot at the prestigious Maseno School. However, financial constraints meant his father couldn&apos;t afford the fees, a moment that could have broken many, but only fueled Felix&apos;s fire.
-              </p>
-              <p>
-                He eventually attended Nyang&apos;oma Boys, but his education didn&apos;t stop there. Years later, as a successful adult, he returned to Daystar University to complete his degree in Community Development, proving that it&apos;s never too late to learn.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Career - ZigZag Layout */}
-      <section id="career" className="bg-secondary border-y border-black/5">
-        {/* TV Legend */}
+      {/* The Journey - ZigZag Layout */}
+      <section id="journey" className="bg-white">
+        {/* Humble Beginnings */}
         <div className="py-24 px-6 md:px-24">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
             <div className="order-2 md:order-1">
-              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Stage & Airwaves I</span>
-              <h3 className="text-4xl md:text-5xl font-bold mb-6 serif text-black">TV Legend</h3>
+              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">The Beginning</span>
               <p className="text-muted leading-relaxed text-lg">
-                His breakthrough as &apos;Jalang&apos;o&apos; on Citizen TV&apos;s Papa Shirandula made him a household name. He brought laughter to millions, using humor to navigate the complexities of Kenyan life.
+                Before the fame, Felix walked the shores of Lake Victoria as a young fisherman, learning the values of hard work and resilience that would define his entire career.
               </p>
             </div>
             <div className="order-1 md:order-2 relative h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl">
-              <Image src="/assets/images/with_collegues.png" alt="TV Career" fill className="object-cover" />
+              <Image src="/assets/images/leader_three.png" alt="Early Life" fill className="object-cover" />
             </div>
           </div>
         </div>
 
-        {/* Radio King */}
-        <div className="py-24 px-6 md:px-24 bg-white">
+        {/* Entertainment */}
+        <div className="py-24 px-6 md:px-24 bg-secondary">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
             <div className="relative h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl">
-              <Image src="/assets/images/leader_six.png" alt="Radio Career" fill className="object-cover" />
+              <Image src="/assets/images/leader_six.png" alt="Entertainment Career" fill className="object-cover" />
             </div>
             <div>
-              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Stage & Airwaves II</span>
-              <h3 className="text-4xl md:text-5xl font-bold mb-6 serif text-black">Radio King</h3>
+              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">The Breakthrough</span>
               <p className="text-muted leading-relaxed text-lg">
-                From Radio Maisha to Kiss 100, Hot 96, and Milele FM, he dominated the morning airwaves. His voice became the soundtrack of the Kenyan morning, blending wit with wisdom.
+                He rose from a theatre actor to a national icon, dominating TV and Radio for two decades, becoming one of Kenya&apos;s most influential and beloved voices.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Digital Pioneer */}
+        {/* Politics - Ruto Section 1 */}
         <div className="py-24 px-6 md:px-24">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
             <div className="order-2 md:order-1">
-              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Stage & Airwaves III</span>
-              <h3 className="text-4xl md:text-5xl font-bold mb-6 serif text-black">Digital Pioneer</h3>
+              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Servant Leadership</span>
               <p className="text-muted leading-relaxed text-lg">
-                With Jalang&apos;o TV, he redefined digital media in Kenya, creating a platform for deep conversations and showcasing the stories of fellow Kenyans through his YouTube channel.
+                Transitioning to politics as the Member of Parliament for Lang&apos;ata, he has closely collaborated with President William Ruto to drive national development and legislative excellence.
               </p>
             </div>
             <div className="order-1 md:order-2 relative h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl">
-              <Image src="/assets/images/logo_two.png" alt="Digital Pioneer" fill className="object-cover" />
+              <Image src="/assets/images/with_the_president.png" alt="MP with Ruto" fill className="object-cover" />
             </div>
           </div>
         </div>
-      </section>
 
-      {/* Politics Section */}
-      <section id="politics" className="py-32 px-6 md:px-24">
-        <div className="grid md:grid-cols-2 gap-24 items-center">
-          <div>
-            <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">03. Servant Leadership</span>
-            <h2 className="text-5xl md:text-6xl font-bold mb-8 serif">Voice of the People</h2>
-            <p className="text-muted text-lg leading-relaxed mb-8">
-              In 2022, Jalang&apos;o took his greatest leap yet—into the political arena. Running for the Member of Parliament for Lang&apos;ata, he promised to bring the same energy and commitment to public service as he did to entertainment.
-            </p>
-            <div className="space-y-4">
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-secondary border border-black/5">
-                <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent">✓</div>
-                <span className="text-lg">Member of Parliament, Lang&apos;ata</span>
-              </div>
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-secondary border border-black/5">
-                <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent">✓</div>
-                <span className="text-lg">Community Development Advocate</span>
-              </div>
+        {/* Politics - Ruto Section 2 */}
+        <div className="py-24 px-6 md:px-24 bg-secondary">
+          <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
+            <div className="relative h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl">
+              <Image src="/assets/images/with_the_president_two.png" alt="Working for Langata" fill className="object-cover" />
             </div>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="relative h-[300px] rounded-2xl overflow-hidden mt-12">
-              <Image src="/assets/images/leader_five.png" alt="Political work" fill className="object-cover" />
-            </div>
-            <div className="relative h-[400px] rounded-2xl overflow-hidden">
-              <Image src="/assets/images/with_the_president.png" alt="With the President" fill className="object-cover" />
+            <div>
+              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Strategic Partnership</span>
+              <p className="text-muted leading-relaxed text-lg">
+                His leadership bridge the gap between community needs and national policy, working hand-in-hand with the executive to deliver transformational changes for his constituents.
+              </p>
             </div>
           </div>
         </div>
