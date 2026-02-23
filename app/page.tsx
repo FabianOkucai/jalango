@@ -17,7 +17,7 @@ export default function Home() {
           <div className="w-full flex justify-center mb-8 lg:mb-12">
             <div className="relative w-full md:w-3/4 lg:w-2/3 h-[250px] sm:h-[350px] md:h-[400px] lg:h-[450px] rounded-[2rem] overflow-hidden shadow-2xl border-4 border-black/5">
               <Image
-                src="/assets/images/leader_two.png"
+                src="/assets/images/langata_two.png"
                 alt="Phelix Odiwour Jalang'o"
                 fill
                 className="object-cover object-top"
@@ -34,8 +34,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-
 
       {/* The Journey - ZigZag Layout */}
       <section id="journey" className="bg-white">
@@ -130,52 +128,91 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section id="gallery" className="py-32 bg-background px-6 md:px-24">
-        <div className="flex justify-between items-end mb-16">
-          <div>
-            <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Moments in Time</span>
-            <h2 className="text-5xl md:text-7xl font-bold serif">A Life in Pictures</h2>
+      {/* Impact Section - Transforming Lang'ata */}
+      <section id="impact" className="py-32 bg-white px-6 md:px-24 border-t border-black/5">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-24">
+            <span className="text-accent text-sm tracking-[0.4em] uppercase mb-4 block font-bold">Constituency Impact</span>
+            <h2 className="text-5xl md:text-8xl font-black serif text-black tracking-tighter mb-6">Transforming Lang&apos;ata</h2>
+            <p className="text-muted text-xl max-w-2xl mx-auto italic font-serif leading-relaxed">
+              &quot;My commitment to Lang&apos;ata is driven by a vision of shared prosperity and dignity for every resident.&quot;
+            </p>
           </div>
-        </div>
 
-        <div className="columns-1 md:columns-3 gap-4 space-y-4">
-          <div className="relative h-[400px] rounded-2xl overflow-hidden group">
-            <Image src="/assets/images/with_raila.png" alt="With Raila" fill className="object-cover hover:scale-105 transition-all duration-500" />
-          </div>
-          <div className="relative h-[300px] rounded-2xl overflow-hidden group">
-            <Image src="/assets/images/hobbies.png" alt="Hobbies" fill className="object-cover hover:scale-105 transition-all duration-500" />
-          </div>
-          <div className="relative h-[500px] rounded-2xl overflow-hidden group">
-            <Image src="/assets/images/leader_six.png" alt="Speaking" fill className="object-cover hover:scale-105 transition-all duration-500" />
-          </div>
-          <div className="relative h-[350px] rounded-2xl overflow-hidden group">
-            <Image src="/assets/images/with_the_president_two.png" alt="President meeting" fill className="object-cover hover:scale-105 transition-all duration-500" />
-          </div>
-          <div className="relative h-[450px] rounded-2xl overflow-hidden group">
-            <Image src="/assets/images/with_collegues.png" alt="Colleagues" fill className="object-cover hover:scale-105 transition-all duration-500" />
-          </div>
-          <div className="relative h-[300px] rounded-2xl overflow-hidden group">
-            <Image src="/assets/images/leader_two.png" alt="With crowd" fill className="object-cover hover:scale-105 transition-all duration-500" />
-          </div>
-          <div className="relative h-[350px] rounded-2xl overflow-hidden group">
-            <Image src="/assets/images/with_raila_wife_ida.png" alt="With Ida Odinga" fill className="object-cover hover:scale-105 transition-all duration-500" />
-          </div>
-          <div className="relative h-[400px] rounded-2xl overflow-hidden group">
-            <Image src="/assets/images/logo_two.png" alt="Portrait" fill className="object-cover hover:scale-105 transition-all duration-500" />
+          <div className="grid md:grid-cols-3 gap-16">
+            {/* Women Empowerment */}
+            <div className="flex flex-col group">
+              <div className="relative w-full aspect-[4/5] rounded-[2.5rem] overflow-hidden mb-10 shadow-2xl border border-black/5">
+                <Image
+                  src="/assets/images/langata.png"
+                  alt="Women Empowerment"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-1000"
+                />
+              </div>
+              <div className="px-2">
+                <span className="text-accent text-xs tracking-[0.3em] uppercase mb-4 block font-bold">Women Empowerment</span>
+                <h3 className="text-3xl font-bold mb-4 serif text-black">Uplifting Our Mothers</h3>
+                <p className="text-muted leading-relaxed text-lg">
+                  Empowering the backbone of Lang&apos;ata. Through specialized grants and table banking initiatives, we are supporting women-led enterprises to ensure economic independence for every household.
+                </p>
+              </div>
+            </div>
+
+            {/* Education Initiatives */}
+            <div className="flex flex-col group mt-12 md:mt-0">
+              <div className="relative w-full aspect-[4/5] rounded-[2.5rem] overflow-hidden mb-10 shadow-2xl border border-black/5">
+                <Image
+                  src="/assets/images/langata_three.png"
+                  alt="Education Initiatives"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-1000"
+                />
+              </div>
+              <div className="px-2">
+                <span className="text-accent text-xs tracking-[0.3em] uppercase mb-4 block font-bold">Education</span>
+                <h3 className="text-3xl font-bold mb-4 serif text-black">World-Class Learning</h3>
+                <p className="text-muted leading-relaxed text-lg">
+                  Upgrading schools like Ngong&apos; Forest Booth Girls High School. We are ensuring every student has access to modern, safe, and inspiring environments to foster the next generation of leaders.
+                </p>
+              </div>
+            </div>
+
+            {/* Community Welfare */}
+            <div className="flex flex-col group mt-12 md:mt-0">
+              <div className="relative w-full aspect-[4/5] rounded-[2.5rem] overflow-hidden mb-10 shadow-2xl border border-black/5">
+                <Image
+                  src="/assets/images/langata_two.png"
+                  alt="Community Welfare"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-1000"
+                />
+              </div>
+              <div className="px-2">
+                <span className="text-accent text-xs tracking-[0.3em] uppercase mb-4 block font-bold">Community</span>
+                <h3 className="text-3xl font-bold mb-4 serif text-black">Health & Social Support</h3>
+                <p className="text-muted leading-relaxed text-lg">
+                  Beyond bricks and mortar, we are investing in our people through massive food programs feeding over 10,000 children daily and conducting regular free medical camps across all wards.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer id="contact" className="py-24 border-t border-black/5 text-center bg-secondary">
-        <div className="flex justify-center gap-12 mb-16">
-          <a href="#" className="text-sm tracking-widest uppercase font-bold hover:text-accent transition-all">Twitter</a>
-          <a href="#" className="text-sm tracking-widest uppercase font-bold hover:text-accent transition-all">Instagram</a>
-          <a href="#" className="text-sm tracking-widest uppercase font-bold hover:text-accent transition-all">YouTube</a>
+      <footer id="contact" className="py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-6 mb-12 flex justify-center">
+          <div className="relative h-px bg-black/10 w-4/5 md:w-11/12">
+            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[2px] bg-accent/40 blur-[0.5px]"></div>
+            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[1px] bg-accent"></div>
+          </div>
         </div>
-        <p className="text-muted text-sm tracking-widest uppercase">&copy; 2024 Felix Odiwour. All Rights Reserved.</p>
+        <div className="text-center">
+          <p className="text-muted text-[10px] tracking-[0.5em] uppercase font-bold text-black/40">&copy; 2024 Felix Odiwour. All Rights Reserved.</p>
+        </div>
       </footer>
     </main >
+
   );
 }
