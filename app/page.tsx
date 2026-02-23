@@ -182,7 +182,7 @@ export default function Home() {
             <div className="flex flex-col group mt-12 md:mt-0">
               <div className="relative w-full aspect-[4/5] rounded-[2.5rem] overflow-hidden mb-10 shadow-2xl border border-black/5">
                 <Image
-                  src="/assets/images/langata_two.png"
+                  src="/assets/images/langata_five.png"
                   alt="Community Welfare"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-1000"
