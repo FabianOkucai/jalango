@@ -2,8 +2,6 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -17,8 +15,9 @@ const config: Config = {
         "hero-bg": "var(--hero-bg)",
       },
       fontFamily: {
-        serif: ["Bodoni Moda", "serif"],
-        sans: ["Inter", "sans-serif"],
+        serif: ["Cormorant Garamond", "serif"],
+        display: ["Playfair Display", "serif"],
+        sans: ["Outfit", "sans-serif"],
       },
       animation: {
         reveal: "reveal 1s cubic-bezier(0.77, 0, 0.175, 1) forwards",
