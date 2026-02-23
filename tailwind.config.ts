@@ -3,6 +3,7 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -21,11 +22,16 @@ const config: Config = {
       },
       animation: {
         reveal: "reveal 1s cubic-bezier(0.77, 0, 0.175, 1) forwards",
+        "hero-pulse": "blackDominantPulse 10s ease-in-out infinite alternate",
       },
       keyframes: {
         reveal: {
           "0%": { opacity: "0", transform: "translateY(30px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        blackDominantPulse: {
+          "0%, 70%": { backgroundColor: "#343a40" },
+          "85%, 100%": { backgroundColor: "#ffffff" },
         },
       },
     },
