@@ -15,30 +15,28 @@ export default function Contact() {
                 <div className="relative z-10 w-full max-w-5xl text-center">
                     {/* Wise Saying */}
                     <div className="animate-reveal mb-16">
-                        <p className="text-3xl md:text-5xl lg:text-6xl text-black/90 leading-tight font-serif italic" style={{ fontFamily: "'Playfair Display', serif" }}>
-                            &quot;Consistency is key to greatness.&quot;
+                        <p className="text-3xl md:text-5xl lg:text-5xl text-black/90 leading-tight font-serif italic" style={{ fontFamily: "'Playfair Display', serif" }}>
+                            &quot;The only limit to your realization of tomorrow will be your doubts of today.&quot;
                         </p>
                     </div>
 
                     {/* Social Handles */}
-                    <div className="animate-reveal grid md:grid-cols-3 gap-8" style={{ animationDelay: '0.2s' }}>
-                        <a href="#" className="p-8 border border-black/5 rounded-3xl hover:bg-black hover:text-white transition-all group">
-                            <span className="text-sm tracking-widest uppercase mb-4 block text-black/40 group-hover:text-white/40">Twitter / X</span>
-                            <span className="text-2xl font-bold">@JalasOfficial</span>
+                    <div className="animate-reveal flex flex-wrap justify-center gap-x-12 gap-y-6" style={{ animationDelay: '0.2s' }}>
+                        <a href="https://www.instagram.com/jalangoo/" target="_blank" rel="noopener noreferrer" className="text-sm tracking-[0.3em] uppercase font-bold hover:text-accent transition-all text-black/60 hover:scale-105">
+                            Instagram
                         </a>
-                        <a href="#" className="p-8 border border-black/5 rounded-3xl hover:bg-black hover:text-white transition-all group">
-                            <span className="text-sm tracking-widest uppercase mb-4 block text-black/40 group-hover:text-white/40">Instagram</span>
-                            <span className="text-2xl font-bold">@jalangoo</span>
+                        <a href="https://web.facebook.com/MzeeJalangoMwenyewe" target="_blank" rel="noopener noreferrer" className="text-sm tracking-[0.3em] uppercase font-bold hover:text-accent transition-all text-black/60 hover:scale-105">
+                            Facebook
                         </a>
-                        <a href="#" className="p-8 border border-black/5 rounded-3xl hover:bg-black hover:text-white transition-all group">
-                            <span className="text-sm tracking-widest uppercase mb-4 block text-black/40 group-hover:text-white/40">YouTube</span>
-                            <span className="text-2xl font-bold">Jalang&apos;o TV</span>
+                        <a href="https://www.tiktok.com/@jalangoo" target="_blank" rel="noopener noreferrer" className="text-sm tracking-[0.3em] uppercase font-bold hover:text-accent transition-all text-black/60 hover:scale-105">
+                            TikTok
                         </a>
-                    </div>
-
-                    <div className="mt-20 animate-reveal" style={{ animationDelay: '0.4s' }}>
-                        <p className="text-black/40 text-sm tracking-widest uppercase mb-4">Direct Email</p>
-                        <a href="mailto:info@jalango.co.ke" className="text-3xl md:text-4xl font-black hover:text-accent transition-colors">info@jalango.co.ke</a>
+                        <a href="https://x.com/JalangoMwenyewe" target="_blank" rel="noopener noreferrer" className="text-sm tracking-[0.3em] uppercase font-bold hover:text-accent transition-all text-black/60 hover:scale-105">
+                            Twitter
+                        </a>
+                        <a href="https://www.youtube.com/@jalangotv1447" target="_blank" rel="noopener noreferrer" className="text-sm tracking-[0.3em] uppercase font-bold hover:text-accent transition-all text-black/60 hover:scale-105">
+                            YouTube
+                        </a>
                     </div>
                 </div>
             </section>
