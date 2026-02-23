@@ -58,7 +58,7 @@ export default function Home() {
         <div className="py-24 px-6 md:px-24 bg-secondary">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
             <div className="relative h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl">
-              <Image src="/assets/images/leader_six.png" alt="Entertainment Career" fill className="object-cover" />
+              <Image src="/assets/images/logo_two.png" alt="Entertainment Career" fill className="object-cover" />
             </div>
             <div>
               <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">The Breakthrough</span>
@@ -69,31 +69,61 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Politics - Ruto Section 1 */}
+        {/* Political Mentorship */}
         <div className="py-24 px-6 md:px-24">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
             <div className="order-2 md:order-1">
-              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Servant Leadership</span>
+              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Political Mentorship</span>
               <p className="text-muted leading-relaxed text-lg">
-                Transitioning to politics as the Member of Parliament for Lang&apos;ata, he has closely collaborated with President William Ruto to drive national development and legislative excellence.
+                His journey was inspired by significant mentorship from the former Prime Minister Raila Odinga, a key chapter that shaped his early political perspective and leadership.
               </p>
             </div>
             <div className="order-1 md:order-2 relative h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl">
+              <Image src="/assets/images/with_raila.png" alt="With Raila" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+
+        {/* Politics - Ruto Section 1 */}
+        <div className="py-24 px-6 md:px-24 bg-secondary">
+          <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
+            <div className="relative h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl">
               <Image src="/assets/images/with_the_president.png" alt="MP with Ruto" fill className="object-cover" />
+            </div>
+            <div>
+              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Servant Leadership</span>
+              <p className="text-muted leading-relaxed text-lg">
+                Transitioning to politics as the MP for Lang&apos;ata, he has closely collaborated with President William Ruto to drive national development and legislative excellence.
+              </p>
             </div>
           </div>
         </div>
 
         {/* Politics - Ruto Section 2 */}
+        <div className="py-24 px-6 md:px-24">
+          <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
+            <div className="order-2 md:order-1">
+              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Strategic Partnership</span>
+              <p className="text-muted leading-relaxed text-lg">
+                His leadership bridges the gap between community needs and national policy, working hand-in-hand with the executive to deliver transformational changes.
+              </p>
+            </div>
+            <div className="order-1 md:order-2 relative h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl">
+              <Image src="/assets/images/with_the_president_two.png" alt="Working for Langata" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+
+        {/* Hobbies */}
         <div className="py-24 px-6 md:px-24 bg-secondary">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
             <div className="relative h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl">
-              <Image src="/assets/images/with_the_president_two.png" alt="Working for Langata" fill className="object-cover" />
+              <Image src="/assets/images/hobbies.png" alt="Hobbies" fill className="object-cover" />
             </div>
             <div>
-              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Strategic Partnership</span>
+              <span className="text-accent text-sm tracking-[0.3em] uppercase mb-4 block">Beyond the Podium</span>
               <p className="text-muted leading-relaxed text-lg">
-                His leadership bridge the gap between community needs and national policy, working hand-in-hand with the executive to deliver transformational changes for his constituents.
+                Off-duty, Phelix finds joy in diverse interests and hobbies that provide the balance necessary to sustain his high-energy public service and career.
               </p>
             </div>
           </div>
