@@ -8,7 +8,7 @@ const socialLinks = [
 
 export default function SocialLinks() {
     return (
-        <div className="animate-reveal flex flex-wrap justify-center gap-x-12 gap-y-6" style={{ animationDelay: '0.2s' }}>
+        <div className="animate-reveal [animation-delay:0.2s] flex flex-wrap justify-center gap-x-12 gap-y-6">
             {socialLinks.map((link) => (
                 <a
                     key={link.name}

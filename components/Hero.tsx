@@ -18,8 +18,8 @@ export default function Hero() {
                 </div>
 
                 {/* Wise Saying (Bottom) */}
-                <div className="text-center animate-reveal max-w-4xl" style={{ animationDelay: '0.2s' }}>
-                    <p className="text-xl md:text-3xl lg:text-5xl text-black/90 leading-tight font-serif italic px-4" style={{ fontFamily: "'Playfair Display', serif" }}>
+                <div className="text-center animate-reveal [animation-delay:0.2s] max-w-4xl">
+                    <p className="text-xl md:text-3xl lg:text-5xl text-black/90 leading-tight font-playfair italic px-4">
                         &quot;Consistency is key to greatness.&quot;
                     </p>
                 </div>

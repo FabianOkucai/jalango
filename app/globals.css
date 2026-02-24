@@ -2,46 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --background: #ffffff;
-    --foreground: #09090b;
-    --accent: #d4af37;
-    --secondary: #f4f4f5;
-    --text-muted: #71717a;
-    --hero-bg: #ffc107;
+@layer base {
+    :root {
+        --background: #ffffff;
+        --foreground: #09090b;
+        --accent: #d4af37;
+        --secondary: #f4f4f5;
+        --text-muted: #71717a;
+        --hero-bg: #ffc107;
+    }
+
+    body {
+        @apply bg-white text-[#09090b] font-sans overflow-x-hidden;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    .serif {
+        @apply font-serif;
+    }
 }
 
-body {
-    color: var(--foreground);
-    background: var(--background);
-    font-family: 'Outfit', sans-serif;
-    overflow-x: hidden;
-}
+@layer utilities {
+    .bg-glass {
+        @apply bg-black/5 backdrop-blur-[10px] border border-black/5;
+    }
 
-h1,
-h2,
-h3,
-h4,
-.serif {
-    font-family: 'Cormorant Garamond', serif;
-}
+    .text-gradient {
+        background: linear-gradient(to right, #ffc107, #ffcc33);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
-.bg-glass {
-    background: rgba(0, 0, 0, 0.01);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-.text-gradient {
-    background: linear-gradient(to right, #ffc107, #ffcc33);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.gold-gradient {
-    background: linear-gradient(to right, #d4af37, #f4d03f);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    .gold-gradient {
+        background: linear-gradient(to right, #d4af37, #f4d03f);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
